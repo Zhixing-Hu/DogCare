@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "alias": "dog-day-care-app",
+    "name": "dog-day-care-app",
+    "routes": [
+        {
+          "src": "^/freddie-favicon.ico$",
+          "dest": "/freddie-favicon.ico"
+       },
+       {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }

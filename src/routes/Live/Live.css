@@ -1,0 +1,138 @@
+.live_image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30), 0px -3px 3px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30), 0px -3px 3px 0px rgba(0,0,0,0.30);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30), 0px -3px 3px 0px rgba(0,0,0,0.30);
+}
+
+.live_main_title {
+    font-family: 'Brushy';
+    line-height: 1;
+    margin-top: 50px;
+}
+
+.live_main_title .brushy_swash {
+    color: #b691fb;
+    font-size: 25px;
+}
+
+.live_people .live_image {
+    background-image: url('../../utils/images/freddie_smile.jpg');
+    background-position-y: 20%;
+}
+
+.live_culture .live_image {
+    background-image: url('../../utils/images/husky_play.jpg');
+}
+
+.live_facilities .live_image {
+    background-image: url('../../utils/images/group_wide_banner.jpg');
+    background-position-y: 10%;
+}
+
+
+.live_title {
+    font-family: 'Lora', serif;
+}
+
+.live_details {
+    padding: 0 10px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 5px;
+}
+
+.live_people .live_details {
+    border-top: 4px solid #ffa0a3;
+}
+
+.live_culture .live_details {
+    border-top: 4px solid #96dae4;
+}
+
+.live_facilities .live_details {
+    border-top: 4px solid #a1f7a1;
+}
+
+.live_memberships {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.about_memberships div {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about_memberships_bic {
+    background-image: url('../../utils/images/bic_pet_logo.png');
+}
+
+.about_memberships_logo {
+    background-image: url('../../utils/images/FreddieLogo.jpg');
+} 
+
+.about_memberships_psi {
+    background-image: url('../../utils/images/PSI-Member-Logo-ILL.png');
+}
+
+@media screen and (min-width: 600px) {
+    .about_people, .about_facilities {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 10px;
+    }
+
+    .about_culture {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .about_image {
+        min-width: 44%;
+        margin: 0 2%;
+        height: unset;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30), 0px -3px 3px 0px rgba(0,0,0,0.30);
+        -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30), 0px -3px 3px 0px rgba(0,0,0,0.30);
+        box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30), 0px -3px 3px 0px rgba(0,0,0,0.30);
+    }
+
+    .about div {
+        padding: 40px 10px;
+    }    
+}
+
+@media screen and (min-width: 1300px) {
+    .about_main_title {
+        font-size: 42px;
+    }
+
+    .about_main_title .brushy_swash {
+        font-size: 32px;
+    }
+
+    .about_title {
+        font-size: 32px;
+    }
+
+    .about {
+        background: white;
+        padding: 10px;
+        -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30);
+        -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30);
+        box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.30);
+    }
+}
